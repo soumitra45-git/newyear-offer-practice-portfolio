@@ -31,7 +31,7 @@
          
 }
 .grad-bg{
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 253, 253, 0));
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(248, 248, 248, 0));
     height: 600px;    
     border-top: 1px solid transparent;
     border-radius: 16px;
@@ -58,6 +58,34 @@
     border-radius: 16px;
     box-shadow: 10px 10px 15px black;
 }
+.sec-3{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.10), rgba(255, 255, 255, 0));
+    height: 482px;
+    margin: 0 140px 120px 140px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 110px;
+}
+.sec-3-inner-div{
+    font-size: 32px;
+    font-weight: 600;
+    display: block;
+    line-height: 56px;
+    
+
+}
+.sec-4{
+    height: 463px;    
+    margin: 0 140px 120px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    gap: 70px;
+    
+}
+span{
+    color: #FF0000;
+}
 .flexed{
     display: flex;
     justify-content: space-around;
@@ -77,4 +105,41 @@
 }
 .btn-join-now:hover{
     opacity: 50%;
+}
+.btn-join-secondary{
+    padding: 16px 32px;
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-join-secondary:hover{
+    border: 1px solid red;
+    color: #FF0000;
+    background-color: white;
+}
+.ring-circle{
+    width: 463px;
+    height: 463px;
+    border: 15px solid red; 
+    border-radius: 50%;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 35.2px;      
+}
+
+.left, .center {
+    flex: 1;
+    box-sizing: border-box;        
+}
+.right{
+    padding-top: 100px;
+    flex: 1;    
+}
+.sec-4 p{
+    line-height: 32px;
 }
